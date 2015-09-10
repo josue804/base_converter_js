@@ -1,5 +1,5 @@
 var wordCount = function(phrase) {
-  var wordArray = phrase.split(" ");
+  var wordArray = phrase.toLowerCase().split(" ");
   var words = {};
   var sortedWords = [];
 
